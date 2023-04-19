@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
+
+        <!-- tailwind css cdn -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Credmark</title>
+    </head>
+
+    <body>
+        <!-- header start -->
+        <header
+            class="bg-[#3b0065] text-white px-4 md:px-12 lg:px-24 xl:px-48 pt-12 pb-32"
+        >
+            <div
+                class="flex flex-col md:flex-row items-start md:items-center justify-start md:justify-between space-y-8"
+            >
+                <img src="/images/logo.png" alt="" srcset="" class="w-48" />
+                <div class="text-left md:text-right">
+                    <h4 class="text-2xl font-bold">Operations Page</h4>
+                </div>
+            </div>
+        </header>
+        <!-- header end -->
+
+        <!-- content start -->
+        <section class="px-4 md:px-12 lg:px-24 xl:px-48 -mt-20 mb-20">
+            <div class="border bg-white p-16 shadow-lg rounded-lg">
+                <h3 class="text-3xl font-bold">
+                    <span class="text-green-500">Links for our Internal sites</span>
+                </h3>
+            </div>
+        </section>
+        <!-- content end -->
+
+        <!-- link start -->
+        <section class="px-48">
+            <div class="border bg-white p-16 shadow rounded-lg">
+                <h4 class="text-lg font-semibold">Monitoring links</h4>
+
+                <div class="mt-8 inline-flex flex-col space-y-2">
+                    <a
+                        href="https://gf.credmark.com/"
+                        class="text-blue-600 underline"
+                        >Grafana Prod</a
+                    >
+                    <a
+                        href="https://gf.staging.credmark.com/"
+                        class="text-blue-600 underline"
+                        >Grafana Staging</a
+                    >
+                    <a
+                        href="https://credmark.grafana.net/"
+                        class="text-blue-600 underline"
+                        >Grafana Cloud</a
+                    >
+                    <a
+                        href="https://productpulse.credmark.com/"
+                        class="text-blue-600 underline"
+                        >Internal Monitoring Dashboard</a
+                    >
+                    <a
+                        href="https://status.credmark.com/"
+                        class="text-blue-600 underline"
+                        >Credmark Status Page</a
+                    >
+                </div>
+            </div>
+            
+            <div class="border bg-white p-16 shadow rounded-lg">
+
+                <h4 class="text-lg font-semibold">CD and Workflows UI links</h4>
+
+                <div class="mt-8 inline-flex flex-col space-y-2">
+                    <a
+                        href="https://cd.credmark.com/argocd/"
+                        class="text-blue-600 underline"
+                        >ArgoCD Prod</a
+                    >
+                    <a
+                        href="https://cd.staging.credmark.com/argocd/"
+                        class="text-blue-600 underline"
+                        >ArgoCD Staging</a
+                    >
+                    <a
+                        href="https://wf.credmark.com/"
+                        class="text-blue-600 underline"
+                        >ArgoWrokflows Prod</a
+                    >
+                    <a
+                        href="https://wf.staging.credmark.com/"
+                        class="text-blue-600 underline"
+                        >ArgoWrokflows Staging</a
+                    >
+                </div>
+            </div>
+        </section>
+        <!-- link end -->
+    </body>
+</html>
